@@ -3,9 +3,10 @@
 
 ## 目前功能
 - 对于str,int,list,tuple等一般传统类型和一般的_GenericAlias类型检查自动支持
+- 支持typing.Union类型的自动类型检查
 
 ## 目前问题
-- 暂时不支持Union等特殊类型.
+- 对于typing.AnyStr,typing.SupportsInt等类型不支持
 
 ## 快速上手
 直接引入,作需要提供类型检查的装饰器即可。
