@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="type_check",
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     description="A decorator for type checking.",
     author="Stephen Ling",
